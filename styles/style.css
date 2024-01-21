@@ -110,12 +110,16 @@ header .column span {
     font-size: 1.13rem;
 }
 
-.piano-keys .white:active {
+.piano-keys .white.active {
     box-shadow: inset -5px 5px 20px rgb(0,0,0, 0.2);
     background: linear-gradient(to bottom #fff 0%, #eee 100%);
 }
 
-.piano-keys .black:active {
+.piano-keys .black.active {
     box-shadow: inset -5px 5px 10px rgb(255,2550,255, 0.1       );
     background: linear-gradient(to bottom #000 0%, #434343);
 }
+
+.piano-keys .key.hide span {
+    display: none;
+} 
